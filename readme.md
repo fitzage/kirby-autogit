@@ -139,7 +139,7 @@ Change the webhook URL segment to something else. Defaults to `autogit`.
 
 ```php
 // https://yousite.com/webhook/pull?secret=MySuperSecret
-c::get('autogit.webhook.url', 'webhook');
+c::set('autogit.webhook.url', 'webhook');
 ```
 
 ### autogit.panel.user
